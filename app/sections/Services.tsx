@@ -276,7 +276,7 @@ export function Services() {
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: idx * 0.05 }}
-                            className="p-4 rounded-xl bg-black/40 border border-emerald/10 hover:border-emerald/30 transition-all"
+                            className="p-4 rounded-xl bg-emerald/30 border border-emerald/10 hover:border-emerald/30 transition-all"
                           >
                             <div className="flex items-start gap-3 mb-2">
                               <CheckCircle className="text-emerald flex-shrink-0 mt-0.5" size={16} />

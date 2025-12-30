@@ -259,7 +259,7 @@ export default function ContactSection() {
                   type="button"
                   onClick={handleEmailSubmit}
                   disabled={isSubmitting}
-                  className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-emerald hover:bg-emerald/90 text-transparent font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/20 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-emerald hover:bg-emerald/90 text-offwhite font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/20 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <Mail size={20} />
                   <span>Send via Email</span>
