@@ -56,7 +56,7 @@ export function Process() {
               <div key={index} className="relative">
                 <Card delay={index * 0.15}>
                   <div className="flex flex-col items-start h-full">
-                    <div className="text-6xl font-bold text-green-600 mb-4">{step.number}</div>
+                    <div className="text-6xl font-bold text-emerald mb-4">{step.number}</div>
                     <div className="p-3 rounded-xl bg-emerald/10 mb-6">
                       <Icon size={32} className="text-emerald" strokeWidth={1.5} />
                     </div>

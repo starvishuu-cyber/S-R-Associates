@@ -164,7 +164,7 @@ export default function ContactSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.4 }}
-              className="flex items-center justify-center gap-3 w-full p-4 bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-[#25D366]/20"
+              className="flex items-center justify-center gap-3 w-full p-3 bg-emerald hover:bg-emerald/90 text-offwhite/90 font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-[#25D366]/20"
             >
               <MessageCircle size={24} />
               <span>Chat on WhatsApp</span>
@@ -192,7 +192,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   required
                   placeholder="Enter your name"
-                  className="w-full px-4 py-3 bg-black/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 transition-colors"
+                  className="w-full px-4 py-3 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 transition-colors"
                 />
               </div>
 
@@ -208,7 +208,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   required
                   placeholder="[email protected]"
-                  className="w-full px-4 py-3 bg-black/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 transition-colors"
+                  className="w-full px-4 py-3 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 transition-colors"
                 />
               </div>
 
@@ -224,7 +224,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   required
                   placeholder="+91 98765 43210"
-                  className="w-full px-4 py-3 bg-black/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 transition-colors"
+                  className="w-full px-4 py-3 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 transition-colors"
                 />
               </div>
 
@@ -240,7 +240,7 @@ export default function ContactSection() {
                   required
                   rows={5}
                   placeholder="Tell us about your tax requirements..."
-                  className="w-full px-4 py-3 bg-black/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 transition-colors resize-none"
+                  className="w-full px-4 py-3 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 transition-colors resize-none"
                 />
               </div>
 
@@ -249,7 +249,7 @@ export default function ContactSection() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-[#25D366]/20 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-emerald hover:bg-emerald/90 text-offwhite font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/20 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <MessageCircle size={20} />
                   <span>Send via WhatsApp</span>
@@ -259,7 +259,7 @@ export default function ContactSection() {
                   type="button"
                   onClick={handleEmailSubmit}
                   disabled={isSubmitting}
-                  className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-emerald hover:bg-emerald/90 text-black font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/20 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-emerald hover:bg-emerald/90 text-transparent font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/20 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <Mail size={20} />
                   <span>Send via Email</span>

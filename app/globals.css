@@ -2,9 +2,9 @@
 
 @theme {
   /* COLORS — MUST BE RGB() */
---color-charcoal: rgb(12 15 19);      /* Deep slate */
---color-emerald: rgb(34 197 94);      /* Softer emerald */
---color-offwhite: rgb(248 250 252);   /* Cool white */
+--color-offwhite: rgb(0 0 0);      /* Deep slate */
+--color-emerald:  rgb(0,191,255);      /* Softer emerald */
+--color-charcoal: rgb(255,250,250);   /* Cool white */
 
 
   /* FONTS */

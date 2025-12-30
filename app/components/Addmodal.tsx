@@ -111,7 +111,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
             onClick={handleClose}
-            className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[9998]"
+            className="fixed inset-0 bg-transparent/80 backdrop-blur-sm z-[9998]"
           />
 
           {/* Modal Content */}
@@ -122,12 +122,12 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
               transition={{ duration: 0.3, ease: 'easeOut' }}
               onClick={(e) => e.stopPropagation()}
-              className="relative w-full max-w-4xl bg-black border border-emerald/30 rounded-2xl shadow-2xl shadow-emerald/20 my-8"
+              className="relative w-full max-w-4xl bg-charcoal border border-emerald/30 rounded-2xl shadow-2xl shadow-emerald/20 my-8"
             >
               {/* Close Button */}
               <button
                 onClick={handleClose}
-                className="absolute top-4 right-4 z-20 p-2 rounded-full bg-black/50 backdrop-blur-sm border border-emerald/30 text-offwhite hover:bg-emerald/20 hover:border-emerald transition-all duration-300"
+                className="absolute top-4 right-4 z-20 p-2 rounded-full bg-transparent/50 backdrop-blur-sm border border-emerald/30 text-offwhite hover:bg-emerald/20 hover:border-emerald transition-all duration-300"
                 aria-label="Close modal"
               >
                 <X size={20} />
@@ -255,7 +255,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                             onChange={handleChange}
                             required
                             placeholder="Enter your full name"
-                            className="w-full px-4 py-3 bg-black/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all"
+                            className="w-full px-4 py-3 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all"
                           />
                         </motion.div>
 
@@ -275,7 +275,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                             onChange={handleChange}
                             required
                             placeholder="[email protected]"
-                            className="w-full px-4 py-3 bg-black/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all"
+                            className="w-full px-4 py-3 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all"
                           />
                         </motion.div>
 
@@ -288,7 +288,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                             Mobile Number *
                           </label>
                           <div className="flex gap-2">
-                            <div className="flex items-center gap-2 px-3 py-3 bg-black/50 border border-emerald/20 rounded-lg text-offwhite/60 text-sm">
+                            <div className="flex items-center gap-2 px-3 py-3 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite/60 text-sm">
                               India +91
                             </div>
                             <input
@@ -300,7 +300,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                               required
                               pattern="[0-9]{10}"
                               placeholder="9999999999"
-                              className="flex-1 px-4 py-3 bg-black/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all"
+                              className="flex-1 px-4 py-3 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all"
                             />
                           </div>
                         </motion.div>
@@ -319,11 +319,11 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                             value={formData.service}
                             onChange={handleChange}
                             required
-                            className="w-full px-4 py-3 bg-black/50 border border-emerald/20 rounded-lg text-offwhite focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all appearance-none cursor-pointer"
+                            className="w-full px-4 py-3 bg-charcoal border border-emerald/20 rounded-lg text-offwhite focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all appearance-none cursor-pointer"
                           >
-                            <option value="" className="bg-black">Select a service</option>
+                            <option value="" className="bg-charcoal">Select a service</option>
                             {services.map((service) => (
-                              <option key={service} value={service} className="bg-black">
+                              <option key={service} value={service} className="bg-charcoal/180">
                                 {service}
                               </option>
                             ))}
@@ -336,7 +336,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                           transition={{ delay: 0.7 }}
                           type="submit"
                           disabled={isSubmitting}
-                          className="w-full flex items-center justify-center gap-2 px-6 py-3.5 bg-emerald hover:bg-emerald/90 text-black font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/30 disabled:opacity-50 disabled:cursor-not-allowed group"
+                          className="w-full flex items-center justify-center gap-2 px-6 py-3.5 bg-emerald hover:bg-emerald/90 text-offwhite font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/30 disabled:opacity-50 disabled:cursor-not-allowed group"
                         >
                           {isSubmitting ? (
                             <span>Processing...</span>
@@ -454,7 +454,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
 
                         <button
                           onClick={() => setShowForm(true)}
-                          className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-emerald hover:bg-emerald/90 text-black font-semibold rounded-lg transition-all duration-300 shadow-lg shadow-emerald/30 group"
+                          className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-emerald hover:bg-emerald/90 text-transparent font-semibold rounded-lg transition-all duration-300 shadow-lg shadow-emerald/30 group"
                         >
                           <span>Fill Form to Get Started</span>
                           <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
@@ -509,7 +509,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                               onChange={handleChange}
                               required
                               placeholder="Enter your full name"
-                              className="w-full px-4 py-2.5 bg-black/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all text-sm"
+                              className="w-full px-4 py-2.5 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all text-sm"
                             />
                           </div>
 
@@ -525,7 +525,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                               onChange={handleChange}
                               required
                               placeholder="[email protected]"
-                              className="w-full px-4 py-2.5 bg-black/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all text-sm"
+                              className="w-full px-4 py-2.5 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all text-sm"
                             />
                           </div>
 
@@ -534,7 +534,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                               Mobile Number *
                             </label>
                             <div className="flex gap-2">
-                              <div className="flex items-center gap-1 px-3 py-2.5 bg-black/50 border border-emerald/20 rounded-lg text-offwhite/60 text-xs">
+                              <div className="flex items-center gap-1 px-3 py-2.5 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite/60 text-xs">
                                 +91
                               </div>
                               <input
@@ -546,7 +546,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                                 required
                                 pattern="[0-9]{10}"
                                 placeholder="9999999999"
-                                className="flex-1 px-4 py-2.5 bg-black/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all text-sm"
+                                className="flex-1 px-4 py-2.5 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all text-sm"
                               />
                             </div>
                           </div>
@@ -561,11 +561,11 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                               value={formData.service}
                               onChange={handleChange}
                               required
-                              className="w-full px-4 py-2.5 bg-black/50 border border-emerald/20 rounded-lg text-offwhite focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all appearance-none cursor-pointer text-sm"
+                              className="w-full px-4 py-2.5 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20 transition-all appearance-none cursor-pointer text-sm"
                             >
-                              <option value="" className="bg-black">Select a service</option>
+                              <option value="" className="bg-transparent">Select a service</option>
                               {services.map((service) => (
-                                <option key={service} value={service} className="bg-black">
+                                <option key={service} value={service} className="bg-transparent">
                                   {service}
                                 </option>
                               ))}
@@ -575,7 +575,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                           <button
                             type="submit"
                             disabled={isSubmitting}
-                            className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-emerald hover:bg-emerald/90 text-black font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/30 disabled:opacity-50 disabled:cursor-not-allowed group mt-6"
+                            className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-emerald hover:bg-emerald/90 text-transparent font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/30 disabled:opacity-50 disabled:cursor-not-allowed group mt-6"
                           >
                             {isSubmitting ? (
                               <span>Processing...</span>
