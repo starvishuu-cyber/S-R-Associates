@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Income Tax Filing Guide for Salaried Individuals in India (AY 2025-26)",
+    "description": "A step-by-step guide for salaried employees to file Income Tax Returns, choose the right ITR form, and maximize deductions.",
+    "date": "2025-12-28",
+    "author": "CA Neha Sharma",
+    "authorRole": "Income Tax Specialist",
+    "category": "Income Tax",
+    "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1600&q=80",
+    "tags": ["Income Tax", "ITR Filing", "Salaried Employees", "Deductions"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filing Income Tax Returns (ITR) is mandatory for salaried individuals whose income exceeds the basic exemption limit. Proper filing ensures compliance and faster refunds."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Who Should File ITR?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Individuals with income above ₹2.5 lakhs",
+        "Employees with multiple Form 16",
+        "Individuals claiming tax refunds",
+        "Those with foreign income or assets"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Choosing the Correct ITR Form"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "ITR-1 (Sahaj) – Salaried individuals",
+        "ITR-2 – Capital gains income",
+        "ITR-3 – Business or profession"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Popular Deductions"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Section 80C – Investments up to ₹1.5 lakhs",
+        "Section 80D – Health insurance premiums",
+        "Section 24 – Home loan interest"
+      ]
+    },
+    {
+      "type": "quote",
+      "content": "Timely filing of ITR not only avoids penalties but also strengthens your financial credibility."
+    }
+  ]
+}

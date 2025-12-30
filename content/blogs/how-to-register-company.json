@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Startup Compliance Checklist for New Businesses in India",
+    "description": "A complete compliance checklist every startup founder must follow from incorporation to annual filings.",
+    "date": "2025-12-26",
+    "author": "CS Amit Verma",
+    "authorRole": "Startup Compliance Advisor",
+    "category": "Startup Compliance",
+    "image": "https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1600&q=80",
+    "tags": ["Startup", "Compliance", "Company Registration", "Legal"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Starting a business is exciting, but compliance failures can lead to heavy penalties. Understanding mandatory filings is critical for startups."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Post-Incorporation Compliances"
+    },
+    {
+      "type": "list",
+      "items": [
+        "PAN & TAN registration",
+        "Opening a company bank account",
+        "Appointment of auditor"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Annual ROC Filings"
+    },
+    {
+      "type": "table",
+      "headers": ["Form", "Purpose", "Due Date"],
+      "rows": [
+        ["AOC-4", "Financial statements", "30 days from AGM"],
+        ["MGT-7", "Annual return", "60 days from AGM"]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Startup India Benefits"
+    },
+    {
+      "type": "paragraph",
+      "content": "Recognized startups enjoy tax exemptions, reduced compliance, and access to government funding schemes."
+    }
+  ]
+}

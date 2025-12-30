@@ -8,8 +8,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 98765 43210',
-    link: 'tel:+919876543210',
+    value: '+91 96504 62399',
+    link: 'tel:+91 96504 62399',
   },
   {
     icon: Mail,
@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Address',
-    value: 'Nagpur, Maharashtra, India',
+    value: '2363, First Floor, Oppo. Metri Plole No. 218, Shadikhmpur, New Delhi, India',
     link: '#',
   },
   {
@@ -55,7 +55,7 @@ export default function ContactSection() {
     const whatsappMessage = `*New Inquiry from Website*%0A%0A*Name:* ${formData.name}%0A*Email:* ${formData.email}%0A*Phone:* ${formData.phone}%0A*Message:* ${formData.message}`;
     
     // Replace with your WhatsApp number (include country code without + or spaces)
-    const whatsappNumber = '919876543210'; // Format: country code + number
+    const whatsappNumber = '+9196504 2399'; // Format: country code + number
     
     // Open WhatsApp with pre-filled message
     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
@@ -157,7 +157,7 @@ export default function ContactSection() {
 
             {/* Quick WhatsApp Button */}
             <motion.a
-              href="https://wa.me/919876543210?text=Hi!%20I%20need%20help%20with%20tax%20consultation"
+              href="https://wa.me/+919650462399?text=Hi!%20I%20need%20help%20with%20tax%20consultation"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
@@ -207,7 +207,7 @@ export default function ContactSection() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="[email protected]"
+                  placeholder="abc@example.com"
                   className="w-full px-4 py-3 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 transition-colors"
                 />
               </div>
@@ -223,7 +223,7 @@ export default function ContactSection() {
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  placeholder="+91 98765 43210"
+                  placeholder="+91 96504 62399"
                   className="w-full px-4 py-3 bg-transparent/50 border border-emerald/20 rounded-lg text-offwhite placeholder:text-offwhite/40 focus:outline-none focus:border-emerald/60 transition-colors"
                 />
               </div>

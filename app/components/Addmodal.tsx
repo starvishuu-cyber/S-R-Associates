@@ -79,7 +79,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
 
     // Format WhatsApp message
     const whatsappMessage = `*New Consultation Request*%0A%0A*Name:* ${formData.name}%0A*Email:* ${formData.email}%0A*Phone:* ${formData.phone}%0A*Service:* ${formData.service}`;
-    const whatsappNumber = '919250561216';
+    const whatsappNumber = '+919650462399';
     
     // Open WhatsApp in new tab
     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
@@ -356,11 +356,11 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                         >
                           <p className="text-offwhite/60 text-sm mb-2">Or Call Now:</p>
                           <a
-                            href="tel:+919250561216"
+                            href="tel:+919650462399"
                             className="inline-flex items-center gap-2 text-emerald hover:text-emerald/80 font-semibold transition-colors"
                           >
                             <Phone size={16} />
-                            <span>+91 9250561216</span>
+                            <span>+91 9650462399</span>
                           </a>
                         </motion.div>
                       </motion.form>
@@ -463,11 +463,11 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                         <div className="text-center mt-4">
                           <p className="text-offwhite/60 text-xs mb-2">Or Call Now:</p>
                           <a
-                            href="tel:+919250561216"
+                            href="tel:+91 9650462399"
                             className="inline-flex items-center gap-2 text-emerald hover:text-emerald/80 font-semibold text-sm transition-colors"
                           >
                             <Phone size={14} />
-                            <span>+91 9250561216</span>
+                            <span>+91 9650462399</span>
                           </a>
                         </div>
                       </div>

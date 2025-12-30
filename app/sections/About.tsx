@@ -7,7 +7,7 @@ import Image from 'next/image';
 const stats = [
   { icon: Users, value: '500+', label: 'Happy Clients' },
   { icon: Award, value: '15+', label: 'Years Experience' },
-  { icon: Shield, value: '98%', label: 'Success Rate' },
+  { icon: Shield, value: '99.8%', label: 'Success Rate' },
   { icon: TrendingUp, value: '₹50Cr+', label: 'Tax Saved' },
 ];
 
@@ -65,8 +65,8 @@ export default function AboutSection() {
               className="absolute -bottom-8 -right-8 bg-emerald p-6 rounded-2xl shadow-xl"
             >
               <div className="text-center">
-                <div className="text-4xl font-bold text-black">15+</div>
-                <div className="text-sm font-semibold text-black/80">Years Excellence</div>
+                <div className="text-4xl font-bold text-charcoal">15+</div>
+                <div className="text-sm font-semibold text-charcoal/80">Years Excellence</div>
               </div>
             </motion.div>
           </motion.div>

@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "featured":true,
+    "title": "Complete Guide to GST Filing for Small Businesses in 2025",
+    "description": "Learn everything about GST registration, return filing, and compliance requirements for small businesses in India.",
+    "date": "2025-12-30",
+    "author": "CA Rajesh Kumar",
+    "authorRole": "Senior Tax Consultant",
+    "category": "GST",
+    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1600&q=80",
+    "tags": ["GST", "Tax Filing", "Small Business", "Compliance"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "GST (Goods and Services Tax) has revolutionized the tax structure in India. For small business owners, understanding GST compliance is crucial for smooth operations."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "What is GST?"
+    },
+    {
+      "type": "paragraph",
+      "content": "GST is an indirect tax levied on the supply of goods and services in India. It has replaced multiple indirect taxes like VAT, Service Tax, and Excise Duty."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Types of GST"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "CGST - Central Goods and Services Tax",
+        "SGST - State Goods and Services Tax",
+        "IGST - Integrated Goods and Services Tax"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "GST Registration Requirements"
+    },
+    {
+      "type": "paragraph",
+      "content": "Businesses need to register for GST if:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Annual turnover exceeds ₹40 lakhs (₹20 lakhs for special category states)",
+        "Engaged in inter-state supply",
+        "E-commerce sellers",
+        "Casual taxable persons"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "GST Return Filing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Regular businesses must file:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "GSTR-1: Monthly/Quarterly outward supplies",
+        "GSTR-3B: Monthly summary return",
+        "GSTR-9: Annual return"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Filing Deadlines"
+    },
+    {
+      "type": "table",
+      "headers": ["Return Type", "Frequency", "Due Date"],
+      "rows": [
+        ["GSTR-1", "Monthly", "11th of next month"],
+        ["GSTR-3B", "Monthly", "20th of next month"],
+        ["GSTR-9", "Annual", "31st December"]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Common Mistakes to Avoid"
+    },
+    {
+      "type": "quote",
+      "content": "Always ensure your invoice details match with your GSTR-1 returns to avoid mismatches."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Missing deadlines",
+        "Incorrect GSTIN",
+        "Wrong HSN codes",
+        "Not reconciling ITC"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Need Help?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Our team of experts can help you with GST registration, filing, and compliance. Contact us for a free consultation!"
+    },
+    {
+      "type": "paragraph",
+      "content": "Disclaimer: This article is for informational purposes only. Please consult a tax professional for specific advice."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Smart Tax Planning Strategies to Build Long-Term Wealth",
+    "description": "Learn how effective tax planning can help you save taxes and grow your wealth sustainably.",
+    "date": "2025-12-22",
+    "author": "CA Pankaj Gupta",
+    "authorRole": "Wealth & Tax Advisor",
+    "category": "Tax Planning",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1600&q=80",
+    "tags": ["Tax Planning", "Wealth", "Investments", "Savings"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Tax planning is a crucial part of financial planning. Early and informed decisions can significantly increase long-term wealth."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Why Tax Planning Matters"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Reduces tax liability",
+        "Encourages disciplined investing",
+        "Improves cash flow"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Popular Tax-Saving Instruments"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "ELSS Mutual Funds",
+        "PPF (Public Provident Fund)",
+        "NPS (National Pension Scheme)"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Avoid Last-Minute Planning"
+    },
+    {
+      "type": "quote",
+      "content": "The best tax planning starts at the beginning of the financial year, not the end."
+    }
+  ]
+}

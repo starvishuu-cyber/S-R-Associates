@@ -11,12 +11,13 @@ export default function Navbar() {
     const [openModal, setOpenModal] = useState(false);
     console.log(openModal)
     const navItems = [
-        { name: 'Home', href: '#home' },
-        { name: 'About', href: '#about' },
-        { name: 'Services', href: '#services' },
-        { name: 'Process', href: '#process' },
-        { name: 'FAQ', href: '#faq' },
-        { name: 'Contact', href: '#contact' },
+        { name: 'Home', href: '/#home' },
+        { name: 'Blogs', href: '/blogs' },
+        { name: 'About', href: '/#about' },
+        { name: 'Services', href: '/#services' },
+        { name: 'Process', href: '/#process' },
+        { name: 'FAQ', href: '/#faq' },
+        { name: 'Contact', href: '/#contact' },
     ];
 
     useEffect(()=>{

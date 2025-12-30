@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "NRI Taxation in India: Rules, Income Sources, and Compliance",
+    "description": "Understand how Non-Resident Indians are taxed in India and how to stay compliant with Indian tax laws.",
+    "date": "2025-12-24",
+    "author": "CA Rahul Mehta",
+    "authorRole": "NRI Tax Consultant",
+    "category": "NRI Taxation",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80",
+    "tags": ["NRI", "Taxation", "Foreign Income", "DTAA"]
+  },
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "NRI taxation depends on residential status and income earned or received in India. Proper planning helps avoid double taxation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Who is an NRI?"
+    },
+    {
+      "type": "paragraph",
+      "content": "An individual is considered an NRI if they stay in India for less than 182 days during a financial year."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Taxable Income for NRIs"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Income from property in India",
+        "Capital gains from Indian assets",
+        "Interest from NRO accounts"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "DTAA Benefits"
+    },
+    {
+      "type": "quote",
+      "content": "DTAA agreements help NRIs avoid paying tax twice on the same income."
+    }
+  ]
+}

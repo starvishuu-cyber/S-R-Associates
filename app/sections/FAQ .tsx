@@ -113,7 +113,7 @@ export default function FAQSection() {
           className="text-center mt-12"
         >
           <p className="text-offwhite/70 mb-4">Still have questions?</p>
-          <a href='/#contact' className="px-8 py-3 bg-emerald text-black font-semibold rounded-lg hover:bg-emerald/90 transition-all duration-300 hover:shadow-lg hover:shadow-emerald/20">
+          <a href='/#contact' className="px-8 py-3 bg-emerald text-charcoal font-semibold rounded-lg hover:bg-emerald/90 transition-all duration-300 hover:shadow-lg hover:shadow-emerald/20">
             Contact Our Team
           </a>
         </motion.div>

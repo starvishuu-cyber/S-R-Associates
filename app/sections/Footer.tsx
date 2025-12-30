@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react';
 
 export function Footer() {
   return (
-    <footer className="py-16 px-6 border-t border-offwhite/10">
+    <footer className="py-16 px-6 border-t border-offwhite/10 bg-charcaol">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <motion.div
@@ -13,7 +13,7 @@ export function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="font-serif text-2xl font-bold text-emerald mb-4">Elite Tax Advisory</h3>
+            <h3 className="font-serif text-2xl font-bold text-emerald mb-4"> S & R Associates</h3>
             <p className="text-offwhite/70 leading-relaxed">
               Premium tax consultation and financial advisory services for discerning clients.
             </p>
@@ -47,15 +47,15 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-offwhite/70">
                 <Mail size={20} className="text-emerald mt-1 flex-shrink-0" />
-                <span>contact@elitetax.com</span>
+                <span>Coming Soon</span>
               </li>
               <li className="flex items-start gap-3 text-offwhite/70">
                 <Phone size={20} className="text-emerald mt-1 flex-shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 9650462399</span>
               </li>
               <li className="flex items-start gap-3 text-offwhite/70">
                 <MapPin size={20} className="text-emerald mt-1 flex-shrink-0" />
-                <span>Mumbai, Maharashtra</span>
+                <span>2363, First Floor, Oppo. Metri Plole No. 218, Shadikhmpur, New Delhi, India</span>
               </li>
             </ul>
           </motion.div>
