@@ -336,7 +336,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                           transition={{ delay: 0.7 }}
                           type="submit"
                           disabled={isSubmitting}
-                          className="w-full flex items-center justify-center gap-2 px-6 py-3.5 bg-emerald hover:bg-emerald/90 text-offwhite font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/30 disabled:opacity-50 disabled:cursor-not-allowed group"
+                          className="w-full flex items-center justify-center gap-2 px-6 py-3.5 bg-emerald hover:bg-emerald/90 text-charcoal font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/30 disabled:opacity-50 disabled:cursor-not-allowed group"
                         >
                           {isSubmitting ? (
                             <span>Processing...</span>
@@ -454,7 +454,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
 
                         <button
                           onClick={() => setShowForm(true)}
-                          className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-emerald hover:bg-emerald/90 text-offwhite font-semibold rounded-lg transition-all duration-300 shadow-lg shadow-emerald/30 group"
+                          className="w-full flex items-center justify-center gap-2 px-6 py-4 bg-emerald hover:bg-emerald/90 text-charcoal font-semibold rounded-lg transition-all duration-300 shadow-lg shadow-emerald/30 group"
                         >
                           <span>Fill Form to Get Started</span>
                           <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
@@ -575,7 +575,7 @@ export default function ConsultationModal({ isOpen, showFormview, onClosemodal }
                           <button
                             type="submit"
                             disabled={isSubmitting}
-                            className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-emerald hover:bg-emerald/90 text-offwhite font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/30 disabled:opacity-50 disabled:cursor-not-allowed group mt-6"
+                            className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-emerald hover:bg-emerald/90 text-charcoal font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/30 disabled:opacity-50 disabled:cursor-not-allowed group mt-6"
                           >
                             {isSubmitting ? (
                               <span>Processing...</span>

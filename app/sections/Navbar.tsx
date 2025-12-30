@@ -71,7 +71,7 @@ export default function Navbar() {
                                 animate={{ opacity: 1, scale: 1 }}
                                 onClick={handleModal}
                                 transition={{ delay: 0.6 }}
-                                className="px-6 py-2.5 bg-emerald text-black font-semibold rounded-lg hover:bg-emerald/90 transition-all duration-300 hover:shadow-lg hover:shadow-emerald/20"
+                                className="px-6 py-2.5 bg-emerald text-charcoal font-semibold rounded-lg hover:bg-emerald/90 transition-all duration-300 hover:shadow-lg hover:shadow-emerald/20"
                             >
                                 Get Started
                             </motion.button>
@@ -115,7 +115,7 @@ export default function Navbar() {
                                         animate={{ opacity: 1, x: 0 }}
                                         transition={{ delay: 0.3 }}
                                         onClick={handleModal}
-                                        className="w-full px-6 py-2.5 bg-emerald text-black font-semibold rounded-lg hover:bg-emerald/90 transition-all duration-300"
+                                        className="w-full px-6 py-2.5 bg-emerald text-charcoal font-semibold rounded-lg hover:bg-emerald/90 transition-all duration-300"
                                     >
                                         Get Started
                                     </motion.button>
