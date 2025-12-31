@@ -13,7 +13,7 @@ export function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="font-serif text-2xl font-bold text-emerald mb-4">S R & Associates</h3>
+            <h3 className="font-serif text-2xl font-bold text-offwhite mb-4">S R &  <span className="text-emerald">Associates</span></h3>
             <p className="text-offwhite/70 leading-relaxed">
               Premium tax consultation and financial advisory services for discerning clients.
             </p>

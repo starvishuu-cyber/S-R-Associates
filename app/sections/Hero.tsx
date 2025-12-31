@@ -88,12 +88,12 @@ export function Hero() {
   return (
     <section 
       id="home" 
-      className="relative min-h-screen flex items-center overflow-hidden pt-20 pb-12"
+      className="relative min-h-screen flex mt-4  overflow-hidden pb-12"
     >
       <div className="absolute inset-0 bg-gradient-radial from-emerald/10 via-transparent to-transparent opacity-50" />
 
       <div className="max-w-7xl mx-auto w-full relative z-10 px-6">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-20 items-center">
+        <div className="grid lg:grid-cols-2 gap-4 lg:gap-20 items-center">
           
           {/* Content Section */}
           <motion.div

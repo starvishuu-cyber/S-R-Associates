@@ -75,7 +75,7 @@ export default function BlogsPage() {
                   placeholder="Enter your email"
                   className="flex-1 px-6 py-3 bg-offwhite/50 border border-emerald/20 rounded-lg text-charcoal placeholder:text-charcoal/40 focus:outline-none focus:border-emerald/60 focus:ring-2 focus:ring-emerald/20"
                 />
-               <a href="mailto:abc@example.com">
+               <a href="mailto:sanjayrajak26@yahoo.com">
                 <button className="px-8 py-3 bg-emerald cursor-pointer hover:bg-emerald/90 text-charcoal font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-emerald/30">
                     Subscribe
                 </button>

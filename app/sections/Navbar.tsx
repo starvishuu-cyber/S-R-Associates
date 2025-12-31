@@ -34,9 +34,9 @@ export default function Navbar() {
     return (
         <>
             <Modal isOpen={openModal} showFormview={showForm} onClosemodal={(state:boolean)=>{setOpenModal(state); setShowform(false)}}/>
-            <nav className="fixed top-0 left-0 right-0 z-50 bg-charcoal backdrop-blur-sm border-b border-emerald/10">
-                <div className="max-w-7xl mx-auto px-6">
-                    <div className="flex items-center justify-between h-20">
+            <nav className="sticky top-0 left-0 right-0 z-50 bg-charcoal backdrop-blur-sm border-b border-emerald/10">
+                <div className="max-w-7xl mx-auto px-4">
+                    <div className="flex items-center justify-between h-16">
                         {/* Logo */}
                         <motion.div
                             initial={{ opacity: 0, x: -20 }}
@@ -105,7 +105,7 @@ export default function Navbar() {
                                             initial={{ opacity: 0, x: -20 }}
                                             animate={{ opacity: 1, x: 0 }}
                                             transition={{ delay: index * 0.05 }}
-                                            onClick={() => setIsOpen(false)}
+                                            onClick={() => setTimeout(()=>setIsOpen(false),300)}
                                             className="block text-offwhite/70 hover:text-emerald transition-colors duration-300 font-medium py-2"
                                         >
                                             {item.name}
