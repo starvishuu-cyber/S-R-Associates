@@ -4,9 +4,9 @@ import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react';
 
 export function Footer() {
   return (
-    <footer className="py-16 px-6 border-t border-offwhite/10 bg-charcaol">
+    <footer className="py-1 px-6 border-t border-offwhite/10 bg-charcaol">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-2">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -91,6 +91,20 @@ export function Footer() {
             © 2024 S R & Associates All rights reserved. | Privacy Policy | Terms of Service
           </p>
         </div>
+        <div
+              className="flex items-center p-2 justify-center gap-2 text-xs text-white"
+            >
+              <span className="text-slate-600">Developed by</span>
+              <a
+                href="https://www.linkedin.com/in/yadav-majersingh-ramsingh-0858aa211/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-transparent bg-linear-to-r from-cyan-900 to-teal-600 bg-clip-text font-semibold hover:from-teal-300 hover:to-cyan-400 transition-all duration-300"
+              >
+                Majersingh
+        </a>
+        <Linkedin className="text-cyan-900 " />
+      </div>
       </div>
     </footer>
   );
