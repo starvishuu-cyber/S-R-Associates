@@ -55,7 +55,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3 text-offwhite/70">
                 <MapPin size={20} className="text-emerald mt-1 flex-shrink-0" />
-                <span>2363, First Floor, Oppo. Metri Plole No. 218, Shadikhmpur, New Delhi, India</span>
+                <span>FIRST FLOOR, 2363, Main Patel Rd, Opp. METRO POLE No. 218, Shadikhampur, New Delhi, Delhi, 110008</span>
               </li>
             </ul>
           </motion.div>
