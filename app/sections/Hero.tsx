@@ -27,7 +27,7 @@ const slides = [
   },
   {
     image:
-      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1600&q=80',
+      '/wealth.jpg',
     title: 'Wealth Advisory',
     description: 'Comprehensive wealth management',
   },
@@ -287,7 +287,7 @@ export function Hero() {
                           src={slide.image}
                           alt={slide.title}
                           fill
-                          className="object-cover"
+                          className="object-fit"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
                         

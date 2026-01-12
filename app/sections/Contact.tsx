@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Address',
-    value: '2363, First Floor, Oppo. Metri Plole No. 218, Shadikhmpur, New Delhi, India',
+    value: 'FIRST FLOOR, 2363, Main Patel Rd, Opp. METRO POLE No. 218, Shadikhampur, New Delhi, Delhi, 110008',
     link: '#',
   },
   {
